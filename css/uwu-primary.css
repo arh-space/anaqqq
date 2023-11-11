@@ -14,7 +14,7 @@ body {
 	--color-bg: #000;
 	--color-link: #aaa;
 	--color-link-hover: #fff;
-	--anim-time: 6s;
+	--anim-time: 5s;
 	--anim-delay-first: 3s;
 	--anim-delay-second: calc(var(--anim-delay-first) + var(--anim-time));
 	--anim-time-total: calc(var(--anim-time) + var(--anim-delay-first)/3 + var(--anim-delay-second));
@@ -62,7 +62,7 @@ canvas {
 	border-radius: 50%;
 	opacity: 0.4;
 	background: var(--color-link);
-	animation: loaderAnim 0.4s linear infinite alternate forwards;
+	animation: loaderAnim 0.7s linear infinite alternate forwards;
 }
 
 @keyframes loaderAnim {
