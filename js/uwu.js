@@ -3,7 +3,6 @@ const s = (p) => {
 
   p.preload = () => {
     audio = p.loadSound('audio/uwu.mp3')
-    demo1Shader = p.loadShader('shaders/base.vert', 'shaders/d1.frag')
     img = p.loadImage('img/1.jpg')
   }
 
@@ -22,7 +21,6 @@ const s = (p) => {
         toggleBtn.classList.toggle('toggle--on')
         this.toggleAudio()
       })
-
      
 
   toggleAudio = () => {
