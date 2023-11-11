@@ -14,7 +14,7 @@ body {
 	--color-bg: #000;
 	--color-link: #aaa;
 	--color-link-hover: #fff;
-	--anim-time: 5s;
+	--anim-time: 11s;
 	--anim-delay-first: 3s;
 	--anim-delay-second: calc(var(--anim-delay-first) + var(--anim-time));
 	--anim-time-total: calc(var(--anim-time) + var(--anim-delay-first)/3 + var(--anim-delay-second));
