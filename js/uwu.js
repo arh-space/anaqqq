@@ -42,7 +42,7 @@ const s = (p) => {
     const mapTremble = p.map(treble, 0, 255, 0, 0.0)
     const mapMid = p.map(mid, 0, 255, 0.0, 0.1)
 
-    demo1Shader.setUniform('u_time', p.frameCount / 3)
+    demo1Shader.setUniform('u_time', p.frameCount / 0)
     demo1Shader.setUniform('u_bass', mapBass)
     demo1Shader.setUniform('u_tremble', mapTremble)
     demo1Shader.setUniform('u_mid', mapMid)
