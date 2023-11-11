@@ -3,7 +3,7 @@ const s = (p) => {
 
   p.preload = () => {
     audio = p.loadSound('audio/uwu.mp3')
-    demo1Shader = p.loadShader('shaders/base.vert', 'shaders/d1.frag')
+    demo1Shader = p.loadShader('shaders/base1.vert', 'shaders/d11.frag')
     img = p.loadImage('img/1.jpg')
   }
 
